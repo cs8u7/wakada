@@ -1,0 +1,78 @@
+ex3
+a/
+Syntax error on token "void", Identifier expected after this token
+<identifier> expected
+b/
+Syntax error, insert "}" to complete ClassBody
+Syntax error on token "(", byte expected after this token
+illegal start of type
+',', ')', or '[' expected
+Syntax error on token "}", delete this token
+c/
+class <error> is public, should be declared in a file named <error>.java
+Syntax error on token "class", Identifier expected after this token
+<identifier> expected
+d/
+illegal start of expression
+Syntax error on token ".", delete this token
+cannot find symbol
+  symbol:   method println(java.lang.String)
+  location: class jahrava.oop11.HelloWorld
+  The method println(String) is undefined for the type HelloWorld
+e/
+Constructor call must be the first statement in a constructor
+Syntax error on token ".", super expected after this token
+<identifier> expected
+ex4
+a/
+Syntax error on token "oop11", ; expected after this token
+';' expected
+b/
+cannot find symbol
+  symbol:   variable Hello
+  location: class jahrava.oop11.HelloWorld
+cannot find symbol
+  symbol:   variable World
+  location: class jahrava.oop11.HelloWorld
+unclosed string literal
+String literal is not properly closed by a double-quote
+c/
+unclosed string literal
+String literal is not properly closed by a double-quote
+/d
+Syntax error on token "HelloWorld", { expected after this token
+'{' expected
+class, interface, enum, or record expected
+class, interface, enum, or record expected
+e/
+missing method body, or declare abstract
+Syntax error on token ")", { expected after this token
+';' expected
+class, interface, enum, or record expected
+f/
+Syntax error, insert "}" to complete ClassBody
+reached end of file while parsing
+f/
+Syntax error, insert "}" to complete ClassBody
+reached end of file while parsing
+ex5
+a/
+can not complier
+b/
+cannot find symbol
+  symbol:   class Sring
+  location: class jahrava.oop11.HelloWorld
+Sring cannot be resolved to a type
+c/
+class HlloWorld is public, should be declared in a file named HlloWorld.java
+The public type HlloWorld must be defined in its own file
+d/
+Sstem cannot be resolved
+package Sstem does not exist
+e/
+cannot find symbol
+  symbol:   method pintln(java.lang.String)
+  location: variable out of type java.io.PrintStream
+The method pintln(String) is undefined for the type PrintStream
+ex6
+you forgot the String[] args. It is required. 
