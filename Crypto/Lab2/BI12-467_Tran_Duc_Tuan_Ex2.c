@@ -10,7 +10,7 @@ int main(){
         int a[32];
         for(int i = 0 ; e > 0 ; i++ ){
             a[i] = e % 2;
-            e = e/2;
+            e = floor(e/2);
         }
     //find base remainder 
         int mod,base;
@@ -18,10 +18,10 @@ int main(){
         base = mod;
     //find result
         for( int k = 1 ; k < sizeof(a) ; k++ ){
-            mod = power(mod,2);
+            mod = mod * mod ;
             if( a[k] == 1 ){
                 mod = mod * base;
             } 
         }
-        printf("The key is: &d\n",mod);
+        printf("The key is: %d\n",mod);
 }
