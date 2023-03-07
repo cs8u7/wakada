@@ -1,0 +1,10 @@
+microservices:
+  - app: user-authenticaltion
+    port: 9000
+    version: 1.7
+    deployed: true #booliean value
+  
+  - app: shopping-cart
+    port: 9002
+    version: 1.9
+    asasasasasass
